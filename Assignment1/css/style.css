@@ -1,0 +1,38 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #111111;
+    display: flex;
+    min-height: 100vh;
+    padding: 10px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 50%;
+    background: linear-gradient(120deg, rgba(252,222,190,0.6) 0%, rgba(252,222,190,0.6) 50%, rgba(37,137,189,0.6) 100%), url("../img/bg.jpg") center;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 90%, 0% 75%);
+}
+
+.divpos {
+    text-align: center;
+}
+
+.header {
+    font-size: 150px;
+    text-transform: uppercase;
+    margin: 70px 0;
+    background: 
+    -webkit-linear-gradient(150deg, rgba(37,137,189,1) 0%, rgba(37,137,189,1) 50%, rgba(252,222,190,1) 50%, rgba(252,222,190,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text{
+    color: red;
+}
+
+
+
