@@ -1,0 +1,69 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --light-grey: #d8d9db;
+    --buttons-on-hover: #ebebeb;
+    --button-active-state: #bbbcbe;
+    --function-buttons: #df974c;
+    --function-buttons-on-hover: #dfb07e;
+    --function-button-active-state: #dd8d37;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.screen{
+  color: white;
+  text-align: right;
+  font-size: 50px;
+  height: 90px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  background-color: white;
+  border-color: black;
+  color: black;
+  height: 90px;
+  flex-basis: 25%;
+  font-size: 50px;
+}
+.btn-func{
+   background-color: orange;
+   color: white;
+}
+
+.zero{
+  flex-basis: 75%;
+}
+.clear{
+  flex-basis: 50%;
+}
+.double-zero{
+  flex-basis: 100%;
+}
+.container{
+  color: white;
+  background-color: black;
+  width: 500px;
+}
+
+
